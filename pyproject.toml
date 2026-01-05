@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "скрипт python, генерирующий отчет о структуре файлов и папок на жестком диске"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "chardet>=5.2.0",
+    "openpyxl>=3.1.5",
+    "python-docx>=1.2.0",
+    "reportlab>=4.4.7",
+]
 
 [dependency-groups]
 dev = [
